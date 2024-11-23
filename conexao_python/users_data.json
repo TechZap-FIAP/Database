@@ -1,0 +1,578 @@
+[
+    {
+        "id_user": 3,
+        "ds_user_name": "Emily",
+        "ds_surname": "Johnson",
+        "ds_email": "emilyj@icloud.com",
+        "address": {
+            "id_address": 3,
+            "ds_street": "Oak Avenue",
+            "ds_number": 303,
+            "ds_neighborhood": "Uptown",
+            "ds_city": "Chicago",
+            "ds_state": "IL"
+        },
+        "additional_data": {
+            "id_additional_data": 3,
+            "dt_birth_date": "1992-09-10",
+            "ds_cpf": "345.678.901-23",
+            "ds_telephone": "(31) 99876-5432"
+        },
+        "solar_panel": {
+            "id_solar_board": 1,
+            "vl_siza": 1.6,
+            "vl_price": 120.0,
+            "ds_material": "Alumínio e Vidro",
+            "type": {
+                "voltage": 12.5,
+                "model": "SP-100",
+                "manufacturer": "SolarTech",
+                "cell_type": "Monocristalino",
+                "cost_per_watt": 0.5,
+                "product_warranty": 25
+            }
+        },
+        "wind_turbine": {
+            "id_turbine_wind": 7,
+            "vl_size": 6.0,
+            "vl_price": 12000.0,
+            "ds_material": "Aço Galvanizado",
+            "type": {
+                "voltage": 50.0,
+                "model": "TurboPower-600",
+                "manufacturer": "TrabalhosVento",
+                "generator_type": "Ímã Permanente",
+                "warranty_years": 28
+            }
+        },
+        "contracted_plan": 3
+    },
+    {
+        "id_user": 1,
+        "ds_user_name": "John",
+        "ds_surname": "Doe",
+        "ds_email": "johndoe@gmail.com",
+        "address": {
+            "id_address": 1,
+            "ds_street": "Main Street",
+            "ds_number": 101,
+            "ds_neighborhood": "Downtown",
+            "ds_city": "New York",
+            "ds_state": "NY"
+        },
+        "additional_data": {
+            "id_additional_data": 1,
+            "dt_birth_date": "1990-01-15",
+            "ds_cpf": "123.456.789-01",
+            "ds_telephone": "(11) 98765-4321"
+        },
+        "solar_panel": {
+            "id_solar_board": 2,
+            "vl_siza": 2.0,
+            "vl_price": 200.0,
+            "ds_material": "Plástico e Vidro",
+            "type": {
+                "voltage": 24.0,
+                "model": "XP-200",
+                "manufacturer": "GreenSun",
+                "cell_type": "Policristalino",
+                "cost_per_watt": 0.45,
+                "product_warranty": 20
+            }
+        },
+        "wind_turbine": {
+            "id_turbine_wind": 5,
+            "vl_size": 5.0,
+            "vl_price": 9000.0,
+            "ds_material": "Policarbonato e Aço",
+            "type": {
+                "voltage": 60.0,
+                "model": "Tornado-500",
+                "manufacturer": "FuturoTurbinas",
+                "generator_type": "Drive Direto",
+                "warranty_years": 30
+            }
+        },
+        "contracted_plan": 1
+    },
+    {
+        "id_user": 6,
+        "ds_user_name": "Anna",
+        "ds_surname": "Miller",
+        "ds_email": "annam@yahoo.com",
+        "address": {
+            "id_address": 6,
+            "ds_street": "Birch Lane",
+            "ds_number": 606,
+            "ds_neighborhood": "City Center",
+            "ds_city": "Philadelphia",
+            "ds_state": "PA"
+        },
+        "additional_data": {
+            "id_additional_data": 6,
+            "dt_birth_date": "1993-03-18",
+            "ds_cpf": "678.901.234-56",
+            "ds_telephone": "(61) 99999-1111"
+        },
+        "solar_panel": {
+            "id_solar_board": 3,
+            "vl_siza": 1.8,
+            "vl_price": 150.0,
+            "ds_material": "Alumínio e Policarbonato",
+            "type": {
+                "voltage": 48.0,
+                "model": "Eco-300",
+                "manufacturer": "EcoPower",
+                "cell_type": "Filme Fino",
+                "cost_per_watt": 0.4,
+                "product_warranty": 15
+            }
+        },
+        "wind_turbine": {
+            "id_turbine_wind": 4,
+            "vl_size": 8.0,
+            "vl_price": 20000.0,
+            "ds_material": "Aço Inoxidável",
+            "type": {
+                "voltage": 30.0,
+                "model": "AeroMax-400",
+                "manufacturer": "VentoHelio",
+                "generator_type": "Sincrono",
+                "warranty_years": 18
+            }
+        },
+        "contracted_plan": 6
+    },
+    {
+        "id_user": 2,
+        "ds_user_name": "Jane",
+        "ds_surname": "Smith",
+        "ds_email": "janesmith@yahoo.com",
+        "address": {
+            "id_address": 2,
+            "ds_street": "Elm Street",
+            "ds_number": 202,
+            "ds_neighborhood": "Midtown",
+            "ds_city": "Los Angeles",
+            "ds_state": "CA"
+        },
+        "additional_data": {
+            "id_additional_data": 2,
+            "dt_birth_date": "1985-05-20",
+            "ds_cpf": "234.567.890-12",
+            "ds_telephone": "(21) 91234-5678"
+        },
+        "solar_panel": {
+            "id_solar_board": 4,
+            "vl_siza": 2.5,
+            "vl_price": 250.0,
+            "ds_material": "Aço e Vidro",
+            "type": {
+                "voltage": 36.0,
+                "model": "ProMax-400",
+                "manufacturer": "SunVolt",
+                "cell_type": "Monocristalino",
+                "cost_per_watt": 0.55,
+                "product_warranty": 30
+            }
+        },
+        "wind_turbine": {
+            "id_turbine_wind": 3,
+            "vl_size": 6.8,
+            "vl_price": 13000.0,
+            "ds_material": "Fibra de Carbono",
+            "type": {
+                "voltage": 48.0,
+                "model": "PowerSpin-300",
+                "manufacturer": "TurbinasBR",
+                "generator_type": "Ímã Permanente",
+                "warranty_years": 25
+            }
+        },
+        "contracted_plan": 2
+    },
+    {
+        "id_user": 4,
+        "ds_user_name": "Michael",
+        "ds_surname": "Brown",
+        "ds_email": "michaelb@hotmail.com",
+        "address": {
+            "id_address": 4,
+            "ds_street": "Maple Road",
+            "ds_number": 404,
+            "ds_neighborhood": "Suburbs",
+            "ds_city": "Houston",
+            "ds_state": "TX"
+        },
+        "additional_data": {
+            "id_additional_data": 4,
+            "dt_birth_date": "1995-12-25",
+            "ds_cpf": "456.789.012-34",
+            "ds_telephone": "(41) 98765-6789"
+        },
+        "solar_panel": {
+            "id_solar_board": 5,
+            "vl_siza": 1.4,
+            "vl_price": 100.0,
+            "ds_material": "Fibra de Vidro",
+            "type": {
+                "voltage": 18.0,
+                "model": "LiteSolar-150",
+                "manufacturer": "PhotonWorks",
+                "cell_type": "Policristalino",
+                "cost_per_watt": 0.48,
+                "product_warranty": 20
+            }
+        },
+        "wind_turbine": {
+            "id_turbine_wind": 8,
+            "vl_size": 7.5,
+            "vl_price": 18000.0,
+            "ds_material": "Fibra de Carbono e Vidro",
+            "type": {
+                "voltage": 40.0,
+                "model": "CéuLâmina-350",
+                "manufacturer": "EnergiaCéu",
+                "generator_type": "Drive Direto",
+                "warranty_years": 22
+            }
+        },
+        "contracted_plan": 4
+    },
+    {
+        "id_user": 5,
+        "ds_user_name": "Chris",
+        "ds_surname": "Davis",
+        "ds_email": "chrisd@gmail.com",
+        "address": {
+            "id_address": 5,
+            "ds_street": "Pine Street",
+            "ds_number": 505,
+            "ds_neighborhood": "Old Town",
+            "ds_city": "Phoenix",
+            "ds_state": "AZ"
+        },
+        "additional_data": {
+            "id_additional_data": 5,
+            "dt_birth_date": "1988-07-04",
+            "ds_cpf": "567.890.123-45",
+            "ds_telephone": "(51) 91234-0987"
+        },
+        "solar_panel": {
+            "id_solar_board": 6,
+            "vl_siza": 2.8,
+            "vl_price": 300.0,
+            "ds_material": "Alumínio e Vidro",
+            "type": {
+                "voltage": 60.0,
+                "model": "Hyper-500",
+                "manufacturer": "HelioEnergy",
+                "cell_type": "Monocristalino",
+                "cost_per_watt": 0.6,
+                "product_warranty": 35
+            }
+        },
+        "wind_turbine": {
+            "id_turbine_wind": 2,
+            "vl_size": 7.2,
+            "vl_price": 15000.0,
+            "ds_material": "Alumínio e Policarbonato",
+            "type": {
+                "voltage": 24.0,
+                "model": "EcoVento-200",
+                "manufacturer": "EnergiaVerde",
+                "generator_type": "Assíncrono",
+                "warranty_years": 15
+            }
+        },
+        "contracted_plan": 5
+    },
+    {
+        "id_user": 8,
+        "ds_user_name": "Laura",
+        "ds_surname": "Moore",
+        "ds_email": "lauram@hotmail.com",
+        "address": {
+            "id_address": 8,
+            "ds_street": "Spruce Boulevard",
+            "ds_number": 808,
+            "ds_neighborhood": "West Side",
+            "ds_city": "San Diego",
+            "ds_state": "CA"
+        },
+        "additional_data": {
+            "id_additional_data": 8,
+            "dt_birth_date": "1994-06-15",
+            "ds_cpf": "890.123.456-78",
+            "ds_telephone": "(81) 97777-3333"
+        },
+        "solar_panel": {
+            "id_solar_board": 7,
+            "vl_siza": 1.7,
+            "vl_price": 180.0,
+            "ds_material": "Plástico e Vidro",
+            "type": {
+                "voltage": 30.0,
+                "model": "SolarPlus-250",
+                "manufacturer": "SunWorks",
+                "cell_type": "Filme Fino",
+                "cost_per_watt": 0.42,
+                "product_warranty": 10
+            }
+        },
+        "wind_turbine": {
+            "id_turbine_wind": 1,
+            "vl_size": 5.5,
+            "vl_price": 10000.0,
+            "ds_material": "Aço e Fibra de Vidro",
+            "type": {
+                "voltage": 12.0,
+                "model": "TG-100",
+                "manufacturer": "TecnoVento",
+                "generator_type": "Sincrono",
+                "warranty_years": 20
+            }
+        },
+        "contracted_plan": 8
+    },
+    {
+        "id_user": 7,
+        "ds_user_name": "James",
+        "ds_surname": "Wilson",
+        "ds_email": "jamesw@icloud.com",
+        "address": {
+            "id_address": 7,
+            "ds_street": "Cedar Street",
+            "ds_number": 707,
+            "ds_neighborhood": "Historic District",
+            "ds_city": "San Antonio",
+            "ds_state": "TX"
+        },
+        "additional_data": {
+            "id_additional_data": 7,
+            "dt_birth_date": "1987-11-30",
+            "ds_cpf": "789.012.345-67",
+            "ds_telephone": "(71) 98888-2222"
+        },
+        "solar_panel": {
+            "id_solar_board": 8,
+            "vl_siza": 2.2,
+            "vl_price": 220.0,
+            "ds_material": "Alumínio e Policarbonato",
+            "type": {
+                "voltage": 42.0,
+                "model": "EnergyFlex-300",
+                "manufacturer": "PowerGen",
+                "cell_type": "Monocristalino",
+                "cost_per_watt": 0.5,
+                "product_warranty": 25
+            }
+        },
+        "wind_turbine": {
+            "id_turbine_wind": 9,
+            "vl_size": 6.3,
+            "vl_price": 11000.0,
+            "ds_material": "Plástico Reforçado",
+            "type": {
+                "voltage": 20.0,
+                "model": "BrisaLeve-120",
+                "manufacturer": "TecnoBrisa",
+                "generator_type": "Sincrono",
+                "warranty_years": 10
+            }
+        },
+        "contracted_plan": 7
+    },
+    {
+        "id_user": 10,
+        "ds_user_name": "Sophia",
+        "ds_surname": "Anderson",
+        "ds_email": "sophiaa@yahoo.com",
+        "address": {
+            "id_address": 10,
+            "ds_street": "Chestnut Street",
+            "ds_number": 1010,
+            "ds_neighborhood": "North Side",
+            "ds_city": "San Francisco",
+            "ds_state": "CA"
+        },
+        "additional_data": {
+            "id_additional_data": 10,
+            "dt_birth_date": "1989-02-28",
+            "ds_cpf": "012.345.678-90",
+            "ds_telephone": "(31) 95555-5555"
+        },
+        "solar_panel": {
+            "id_solar_board": 9,
+            "vl_siza": 1.9,
+            "vl_price": 190.0,
+            "ds_material": "Aço e Vidro",
+            "type": {
+                "voltage": 15.0,
+                "model": "Compact-100",
+                "manufacturer": "GreenTech",
+                "cell_type": "Policristalino",
+                "cost_per_watt": 0.38,
+                "product_warranty": 10
+            }
+        },
+        "wind_turbine": {
+            "id_turbine_wind": 10,
+            "vl_size": 10.0,
+            "vl_price": 30000.0,
+            "ds_material": "Aço e Alumínio",
+            "type": {
+                "voltage": 72.0,
+                "model": "MegaVento-700",
+                "manufacturer": "GigaTurbinas",
+                "generator_type": "Assíncrono",
+                "warranty_years": 35
+            }
+        },
+        "contracted_plan": 10
+    },
+    {
+        "id_user": 9,
+        "ds_user_name": "David",
+        "ds_surname": "Taylor",
+        "ds_email": "davidt@gmail.com",
+        "address": {
+            "id_address": 9,
+            "ds_street": "Willow Way",
+            "ds_number": 909,
+            "ds_neighborhood": "East Side",
+            "ds_city": "Dallas",
+            "ds_state": "TX"
+        },
+        "additional_data": {
+            "id_additional_data": 9,
+            "dt_birth_date": "1991-08-22",
+            "ds_cpf": "901.234.567-89",
+            "ds_telephone": "(91) 96666-4444"
+        },
+        "solar_panel": {
+            "id_solar_board": 10,
+            "vl_siza": 3.0,
+            "vl_price": 350.0,
+            "ds_material": "Fibra de Vidro",
+            "type": {
+                "voltage": 50.0,
+                "model": "PowerLite-400",
+                "manufacturer": "BrightFuture",
+                "cell_type": "Monocristalino",
+                "cost_per_watt": 0.58,
+                "product_warranty": 28
+            }
+        },
+        "wind_turbine": {
+            "id_turbine_wind": 6,
+            "vl_size": 9.5,
+            "vl_price": 25000.0,
+            "ds_material": "Alumínio e Fibra de Vidro",
+            "type": {
+                "voltage": 36.0,
+                "model": "FlexVento-150",
+                "manufacturer": "EcoSistemas",
+                "generator_type": "Assíncrono",
+                "warranty_years": 12
+            }
+        },
+        "contracted_plan": 9
+    },
+    {
+        "id_user": 11,
+        "ds_user_name": "Lucas",
+        "ds_surname": "Silva",
+        "ds_email": "lucas.silva@gmail.com",
+        "address": {
+            "id_address": null,
+            "ds_street": null,
+            "ds_number": null,
+            "ds_neighborhood": null,
+            "ds_city": null,
+            "ds_state": null
+        },
+        "additional_data": {
+            "id_additional_data": null,
+            "dt_birth_date": null,
+            "ds_cpf": null,
+            "ds_telephone": null
+        },
+        "solar_panel": {
+            "id_solar_board": null,
+            "vl_siza": null,
+            "vl_price": null,
+            "ds_material": null,
+            "type": {
+                "voltage": null,
+                "model": null,
+                "manufacturer": null,
+                "cell_type": null,
+                "cost_per_watt": null,
+                "product_warranty": null
+            }
+        },
+        "wind_turbine": {
+            "id_turbine_wind": null,
+            "vl_size": null,
+            "vl_price": null,
+            "ds_material": null,
+            "type": {
+                "voltage": null,
+                "model": null,
+                "manufacturer": null,
+                "generator_type": null,
+                "warranty_years": null
+            }
+        },
+        "contracted_plan": null
+    },
+    {
+        "id_user": 12,
+        "ds_user_name": "vinicius",
+        "ds_surname": "Oliveira",
+        "ds_email": "vinicius123@gmail.com",
+        "address": {
+            "id_address": null,
+            "ds_street": null,
+            "ds_number": null,
+            "ds_neighborhood": null,
+            "ds_city": null,
+            "ds_state": null
+        },
+        "additional_data": {
+            "id_additional_data": null,
+            "dt_birth_date": null,
+            "ds_cpf": null,
+            "ds_telephone": null
+        },
+        "solar_panel": {
+            "id_solar_board": null,
+            "vl_siza": null,
+            "vl_price": null,
+            "ds_material": null,
+            "type": {
+                "voltage": null,
+                "model": null,
+                "manufacturer": null,
+                "cell_type": null,
+                "cost_per_watt": null,
+                "product_warranty": null
+            }
+        },
+        "wind_turbine": {
+            "id_turbine_wind": null,
+            "vl_size": null,
+            "vl_price": null,
+            "ds_material": null,
+            "type": {
+                "voltage": null,
+                "model": null,
+                "manufacturer": null,
+                "generator_type": null,
+                "warranty_years": null
+            }
+        },
+        "contracted_plan": null
+    }
+]
